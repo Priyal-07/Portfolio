@@ -1,0 +1,42 @@
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    /*color: white;*/
+  }
+  
+  .info-row {
+    display: flex;
+    width: 48%;
+    margin-bottom: 15px;
+    flex-direction: column;
+  }
+  
+  .info-value {
+    color: #8f8f8f;
+  }
+  
+  .info-value a {
+    color: #8f8f8f;
+    text-decoration: none;
+  }
+  
+  .info-value a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info {
+        flex-direction: column;
+    }
+}
