@@ -1,17 +1,32 @@
 .body {
     /*background-color: #1C2738;*/
-    padding: 40px;
+    padding: 40px; 
 }
 
 .tabs {
     /*background-color: #1F3557;*/
     background-color: #e2e8f2;
-    padding: 20px; 
+  /*  padding: 20px; */
     border-radius: 10px; 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);    
     margin: 0 auto; 
 }
 
+.mat-mdc-tab-labels {
+    background-color: #1C2738;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
 
 
+.mdc-tab-indicator__content--underline {
+     --mdc-tab-indicator-active-indicator-color: white;
+} 
 
+.mdc-tab-indicator__content--underline {
+    --mat-tab-header-active-focus-indicator-color: white;
+} 
+
+.mdc-tab-indicator__content--underline {
+    --mat-tab-header-active-hover-indicator-color: white;
+} 

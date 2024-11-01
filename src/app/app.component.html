@@ -4,18 +4,22 @@
   <app-contact-info></app-contact-info>
 
   <div class="tabs">
-    <mat-tab-group class="custom-tab-group">
-      <mat-tab label="About Me">
+    <mat-tab-group>
+      <mat-tab>
+        <ng-template mat-tab-label> About Me </ng-template>
         <app-about-me></app-about-me>
       </mat-tab>
-      <mat-tab label="Skills">
+      
+      <mat-tab>
+        <ng-template mat-tab-label> Skills </ng-template>
         <app-skills></app-skills>
       </mat-tab>
-      <mat-tab label="Projects">
+      <mat-tab>
+        <ng-template mat-tab-label> Projects </ng-template>
         <app-projects></app-projects>
       </mat-tab>
-      <mat-tab label="Education">
-        
+      <mat-tab>
+        <ng-template mat-tab-label> Education </ng-template>
       </mat-tab>
     </mat-tab-group>
   </div>

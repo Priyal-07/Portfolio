@@ -20,12 +20,6 @@
     transform: translateY(-5px);
   }
   
-  .icon {
-    flex-shrink: 0;
-    margin-right: 20px;
-    font-size: 2em;
-    color: #007bff;
-  }
   
   .skill-content h3 {
     font-size: 1.3em;

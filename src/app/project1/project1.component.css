@@ -1,0 +1,24 @@
+.body {
+    background-color: white;
+}
+
+.mat-mdc-dialog-title {
+    color: black;
+}
+
+.mat-mdc-dialog-content {
+    color: black;
+}
+
+.mat-mdc-dialog-actions button {
+    color: black;
+}
+
+.description-text {
+    color: #6c757d; 
+}
+
+h6 {
+    font-size: 1.4em; 
+    margin-top: 1em;
+}

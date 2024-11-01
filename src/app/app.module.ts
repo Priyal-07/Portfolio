@@ -17,6 +17,8 @@ import { ContactInfoComponent } from './contact-info/contact-info.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SkillsComponent } from './skills/skills.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { Project1Component } from './project1/project1.component';
 
 const routes: Routes = [
   { path: '', component: AboutMeComponent },
@@ -32,7 +34,8 @@ const routes: Routes = [
     ContactInfoComponent,
     HeaderComponent,
     FooterComponent,
-    SkillsComponent
+    SkillsComponent,
+    Project1Component
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,8 @@ const routes: Routes = [
     MatListModule,
     MatButtonModule,
     MatTabsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    MatDialogModule
   ],
   providers: [
     provideClientHydration(),

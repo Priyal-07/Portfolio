@@ -1,16 +1,14 @@
-import { Component, ViewChild } from '@angular/core';
-import { MatSidenav } from '@angular/material/sidenav';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  encapsulation: ViewEncapsulation.None
 })
-export class AppComponent {
-  title = 'portfolio';
-  @ViewChild('sidenav') sidenav!: MatSidenav;
-
-  toggleSidenav() {
-    this.sidenav.toggle();
+export class AppComponent implements OnInit {
+  ngOnInit() {
   }
 }
+
+
